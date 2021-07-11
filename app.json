@@ -1,7 +1,11 @@
 {
   "expo": {
-    "name": "bna",
+    "name": "BNA",
     "slug": "bna",
+    "platforms": [
+      "android",
+      "ios"
+    ],
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -11,22 +15,23 @@
       "backgroundColor": "#ffffff"
     },
     "updates": {
+      "checkAutomatically": "ON_LOAD",
+      "enabled": true,
       "fallbackToCacheTimeout": 0
     },
     "assetBundlePatterns": [
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "icon": "./assets/icon.png"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
-    },
-    "web": {
-      "favicon": "./assets/favicon.png"
+      },
+      "package": "com.eyvaz.ceferov11.bna"
     }
   }
 }
